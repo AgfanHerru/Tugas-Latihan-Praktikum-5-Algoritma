@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Oct 29 10:21:37 2021
+
+@author: hp
+NAMA: AGFAN HERRU PRATAMA HENDARSIN
+NIM: 064002100043
+"""
+print ("@@@@ @@@@ @@@@ @@@@ @@   @")
+print ("@  @ @    @    @  @ @ @  @")
+print ("@@@@ @ @@ @@@@ @@@@ @  @ @")
+print ("@  @ @@@@ @    @  @ @   @@")
+
+n = int(input("Masukan Jumlah Bilangan: "))
+while n<2:
+  print("kamu salah")
+  n = int(input("Masukan Jumlah Bilangan: "))
+F1=int(input("Masukan Angka Pertama: "))
+F2 = int(input("Masukan Angka Kedua: "))
+for i in range(n):
+  v=F1
+  
+  x = F1+F2
+  F1=F2
+  F2=x
+  print('Berikut Urutannya')
+  print(v)
